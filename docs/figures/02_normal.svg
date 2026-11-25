@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="28" y="275" style="font-family: Arial; font-size: 22px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,550) scale(1,-1)">Figure 2  Normal research to report</text>
+			<rect x="30" y="90" width="240" height="145" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="46" y="209" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,418) scale(1,-1)">Person: ask and inspect</text>
+			<text x="46" y="184" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,368) scale(1,-1)">Enter LangGraph interrupts question</text>
+			<text x="46" y="164" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,328) scale(1,-1)">Review steps, roles and dependencies</text>
+			<text x="46" y="144" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,288) scale(1,-1)">Select Start workflow</text>
+			<rect x="330" y="90" width="240" height="145" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="346" y="209" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,418) scale(1,-1)">System: execute and expose</text>
+			<text x="346" y="184" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,368) scale(1,-1)">Search and read official documents</text>
+			<text x="346" y="164" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,328) scale(1,-1)">Show statuses and real tool returns</text>
+			<text x="346" y="144" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,288) scale(1,-1)">Select nodes to inspect sources</text>
+			<rect x="630" y="90" width="240" height="145" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="646" y="209" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,418) scale(1,-1)">Person: inspect and export</text>
+			<text x="646" y="184" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,368) scale(1,-1)">Read the report with source links</text>
+			<text x="646" y="164" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,328) scale(1,-1)">Download Markdown and run JSON</text>
+			<text x="646" y="144" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,288) scale(1,-1)">Refresh: saved task remains</text>
+			<path d="M 270,160 L 330,160 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="330 160, 322 164, 322 156" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 570,160 L 630,160 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="630 160, 622 164, 622 156" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<text x="30" y="53" style="font-family: Arial; font-size: 11px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,106) scale(1,-1)">Live task: e0d2e3afdc4c</text>
+			<text x="30" y="30" style="font-family: Arial; font-size: 11px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,60) scale(1,-1)">Observed development check; no participant study. Diagram summarises recorded states.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="450" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="450"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-450)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="28" y="420" style="font-family: Arial; font-size: 22px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,840) scale(1,-1)">Figure 1  Architecture and control flow</text>
+			<rect x="30" y="280" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="46" y="354" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,708) scale(1,-1)">Browser supervision UI</text>
+			<text x="46" y="329" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,658) scale(1,-1)">Plan and structured step details</text>
+			<text x="46" y="309" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,618) scale(1,-1)">Preview, apply, pause, report</text>
+			<rect x="335" y="280" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="351" y="354" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,708) scale(1,-1)">FastAPI + validation</text>
+			<text x="351" y="329" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,658) scale(1,-1)">Check graph, versions, requests</text>
+			<text x="351" y="309" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,618) scale(1,-1)">Save decisions and schedule</text>
+			<rect x="640" y="280" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="656" y="354" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,708) scale(1,-1)">Versioned plan + SQLite</text>
+			<text x="656" y="329" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,658) scale(1,-1)">Tasks, outputs, versions, events</text>
+			<text x="656" y="309" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,618) scale(1,-1)">Append history + checkpoints</text>
+			<rect x="30" y="80" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="46" y="154" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,308) scale(1,-1)">Four DeepSeek roles</text>
+			<text x="46" y="129" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,258) scale(1,-1)">Plan, research/analyse, review, write</text>
+			<text x="46" y="109" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,218) scale(1,-1)">Separate calls + relevant context</text>
+			<rect x="335" y="80" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="351" y="154" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,308) scale(1,-1)">LangGraph + scheduler</text>
+			<text x="351" y="129" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,258) scale(1,-1)">Select ready step from current plan</text>
+			<text x="351" y="109" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,218) scale(1,-1)">Execute, review, adapt or pause</text>
+			<rect x="640" y="80" width="230" height="100" rx="9" ry="9" style="stroke: rgb(76%,82%,77%); stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,96%,93%); fill-rule: evenodd;"/>
+			<text x="656" y="154" style="font-family: Arial; font-size: 15px;fill: rgb(14%,36%,32%); stroke:none;" transform="translate(0,308) scale(1,-1)">Live web tools</text>
+			<text x="656" y="129" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,258) scale(1,-1)">Default: DeepSeek Search/Fetch</text>
+			<text x="656" y="109" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,218) scale(1,-1)">Optional Tavily; HTML cleanup</text>
+			<path d="M 260,330 L 335,330 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="335 330, 327 334, 327 326" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 565,330 L 640,330 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="640 330, 632 334, 632 326" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 450,280 L 450,180 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="450 180, 446 188, 454 188" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 335,130 L 260,130 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="260 130, 268 134, 268 126" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 565,130 L 640,130 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="640 130, 632 134, 632 126" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 755,280 L 755,200 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="755 200, 751 208, 759 208" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 755,200 L 565,200 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="565 200, 573 204, 573 196" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<path d="M 565,200 L 565,178 Z" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="565 178, 561 186, 569 186" style="stroke: rgb(14%,36%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,36%,32%); fill-rule: evenodd;"/>
+			<text x="275" y="345" style="font-family: Arial; font-size: 10px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,690) scale(1,-1)">requests / state</text>
+			<text x="585" y="345" style="font-family: Arial; font-size: 10px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,690) scale(1,-1)">save / read</text>
+			<text x="30" y="30" style="font-family: Arial; font-size: 12px;fill: rgb(13%,24%,21%); stroke:none;" transform="translate(0,60) scale(1,-1)">All solid components implemented. SSE returns events; automatic repair is limited to one round.</text>
+		</g>
+	</g>
+</svg>

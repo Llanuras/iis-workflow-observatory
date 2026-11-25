@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#247264"/></marker></defs>
+<rect width="1200" height="280" rx="16" fill="#f7faf6"/>
+<text x="30" y="42" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" fill="#173f39">Human edits: preview the consequences before changing execution</text>
+<rect x="25" y="78" width="265" height="142" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="43" y="108" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Edit entry points</text>
+<text x="43" y="136" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Text instruction / step form / graph</text>
+<text x="43" y="158" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Create a draft against the current</text>
+<text x="43" y="180" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">version</text>
+<path d="M290 149L317 149" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="320" y="78" width="265" height="142" rx="10" fill="white" stroke="#ae7331" stroke-width="2"/>
+<text x="338" y="108" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#ae7331">Preview and validate</text>
+<text x="338" y="136" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Added, removed, updated; rerun</text>
+<text x="338" y="158" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">scope</text>
+<text x="338" y="180" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Reject cycles, missing links, stale</text>
+<text x="338" y="202" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">versions</text>
+<path d="M585 149L612 149" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="615" y="78" width="265" height="142" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="633" y="108" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Apply a new version</text>
+<text x="633" y="136" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Wait for a saved step boundary</text>
+<text x="633" y="158" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Keep old outputs; invalidate affected</text>
+<text x="633" y="180" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">work</text>
+<path d="M880 149L907 149" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="910" y="78" width="265" height="142" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="928" y="108" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Resume execution</text>
+<text x="928" y="136" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Resume explicitly</text>
+<text x="928" y="158" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Rerun dependencies; produce a new</text>
+<text x="928" y="180" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">report</text>
+<text x="30" y="256" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Automatic evidence repair follows a separate path: create a version, announce the change and continue; one round maximum.</text>
+</svg>

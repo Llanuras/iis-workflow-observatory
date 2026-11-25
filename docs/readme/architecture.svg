@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#247264"/></marker></defs>
+<rect width="1200" height="470" rx="16" fill="#f7faf6"/>
+<text x="30" y="42" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" fill="#173f39">Architecture: one versioned plan drives the interface and execution</text>
+<rect x="35" y="85" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="53" y="115" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Browser interface</text>
+<text x="53" y="143" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">React, React Flow, Tailwind</text>
+<text x="53" y="165" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Tasks, graph, details and report</text>
+<rect x="435" y="85" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="453" y="115" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">API and validation</text>
+<text x="453" y="143" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">FastAPI, Pydantic</text>
+<text x="453" y="165" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Validate graph, versions and edits</text>
+<rect x="835" y="85" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="853" y="115" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Local state and events</text>
+<text x="853" y="143" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">SQLite: tasks, versions, results, logs</text>
+<text x="853" y="165" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">SSE: send events to the browser</text>
+<rect x="35" y="295" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="53" y="325" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Four role-specific calls</text>
+<text x="53" y="353" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Planner, Researcher, Reviewer, Writer</text>
+<text x="53" y="375" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Shared DeepSeek; separate calls</text>
+<rect x="435" y="295" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="453" y="325" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Execution scheduler</text>
+<text x="453" y="353" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Select a ready step from the current plan</text>
+<text x="453" y="375" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">LangGraph execution and checkpoints</text>
+<rect x="835" y="295" width="330" height="125" rx="10" fill="white" stroke="#c6d8cd" stroke-width="1.4"/>
+<text x="853" y="325" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#173f39">Live web tools</text>
+<text x="853" y="353" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">DeepSeek Search / Fetch</text>
+<text x="853" y="375" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#526b62">Optional Tavily; HTML cleanup</text>
+<path d="M365 148L433 148" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M765 148L833 148" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M600 210L600 293" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M435 357L367 357" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M765 357L833 357" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M1000 210L1000 252" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M1000 252L765 252" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<path d="M765 252L765 293" stroke="#247264" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+</svg>

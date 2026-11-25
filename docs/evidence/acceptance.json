@@ -1,0 +1,835 @@
+{
+  "date": "2026-11-25",
+  "type": "development acceptance, no participant study",
+  "tests": {
+    "passed": 14,
+    "services": "explicit injected test services"
+  },
+  "live_cases": [
+    {
+      "id": "9c2b67c6b81c",
+      "case": "correction and workflow adaptation",
+      "status": "completed",
+      "version": 6,
+      "goal": "Compare LangGraph and CrewAI for a small local research assistant requiring human oversight. Use official documentation, discuss editable plans, pause and resume, and limitations. Produce a concise evidence-based report.",
+      "states": {
+        "official_docs": "completed",
+        "local_oversight": "completed",
+        "compare": "completed",
+        "validate": "completed",
+        "report": "completed",
+        "repair_search": "completed",
+        "repair_review": "completed",
+        "step_mwvl110x": "completed"
+      },
+      "searches": 3,
+      "pages": 5,
+      "roles": [
+        "Planner",
+        "Researcher",
+        "Reviewer",
+        "Writer"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop",
+          "title": "Interrupts - Docs by LangChain"
+        },
+        {
+          "id": "S2",
+          "url": "https://langchain-ai.github.io/langgraph/cloud/how-tos/add-human-in-the-loop",
+          "title": "Human-in-the-loop using server API - Docs by LangChain"
+        },
+        {
+          "id": "S3",
+          "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+          "title": "Interrupts - Docs by LangChain"
+        },
+        {
+          "id": "S4",
+          "url": "https://pub.towardsai.net/langgraph-human-in-the-loop-pausing-reviewing-and-rewinding-your-agent-4028bd05b049",
+          "title": "LangGraph Human-in-the-Loop: Pausing, Reviewing, and Rewinding Your Agent"
+        },
+        {
+          "id": "S5",
+          "url": "https://docs.crewai.com/v1.15.23/en/learn/human-in-the-loop",
+          "title": "Human-in-the-Loop (HITL) Workflows - CrewAI"
+        }
+      ],
+      "changes": [
+        {
+          "version": 1,
+          "origin": "Planner",
+          "diff": null
+        },
+        {
+          "version": 2,
+          "origin": "automatic",
+          "diff": {
+            "added": [
+              "repair_review",
+              "repair_search"
+            ],
+            "removed": [],
+            "updated": [
+              "report"
+            ],
+            "affected": [
+              "repair_review",
+              "repair_search",
+              "report"
+            ]
+          }
+        },
+        {
+          "version": 3,
+          "origin": "human",
+          "diff": {
+            "added": [],
+            "removed": [],
+            "updated": [
+              "repair_review",
+              "report"
+            ],
+            "affected": [
+              "repair_review",
+              "report"
+            ]
+          }
+        },
+        {
+          "version": 4,
+          "origin": "human",
+          "diff": {
+            "added": [],
+            "removed": [],
+            "updated": [
+              "repair_review"
+            ],
+            "affected": [
+              "repair_review",
+              "report"
+            ]
+          }
+        },
+        {
+          "version": 5,
+          "origin": "human",
+          "diff": {
+            "added": [
+              "step_mwvl110x"
+            ],
+            "removed": [],
+            "updated": [
+              "report"
+            ],
+            "affected": [
+              "report",
+              "step_mwvl110x"
+            ]
+          }
+        },
+        {
+          "version": 6,
+          "origin": "human",
+          "diff": {
+            "added": [],
+            "removed": [],
+            "updated": [
+              "step_mwvl110x"
+            ],
+            "affected": [
+              "report",
+              "step_mwvl110x"
+            ]
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "kind": "created",
+          "created": "2026-11-25T03:27:23.476180+00:00",
+          "step": null
+        },
+        {
+          "id": 2,
+          "kind": "planning_failed",
+          "created": "2026-11-25T03:27:23.477948+00:00",
+          "step": null
+        },
+        {
+          "id": 3,
+          "kind": "planning_retried",
+          "created": "2026-11-25T03:31:48.911188+00:00",
+          "step": null
+        },
+        {
+          "id": 4,
+          "kind": "plan_ready",
+          "created": "2026-11-25T03:31:50.994585+00:00",
+          "step": null
+        },
+        {
+          "id": 5,
+          "kind": "started",
+          "created": "2026-11-25T03:33:19.970406+00:00",
+          "step": null
+        },
+        {
+          "id": 6,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:19.978994+00:00",
+          "step": "official_docs"
+        },
+        {
+          "id": 7,
+          "kind": "search_started",
+          "created": "2026-11-25T03:33:21.274798+00:00",
+          "step": "official_docs"
+        },
+        {
+          "id": 8,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:33:23.059048+00:00",
+          "step": "official_docs"
+        },
+        {
+          "id": 9,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:28.623016+00:00",
+          "step": "official_docs"
+        },
+        {
+          "id": 10,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:28.646561+00:00",
+          "step": "local_oversight"
+        },
+        {
+          "id": 11,
+          "kind": "search_started",
+          "created": "2026-11-25T03:33:29.486803+00:00",
+          "step": "local_oversight"
+        },
+        {
+          "id": 12,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:33:31.081141+00:00",
+          "step": "local_oversight"
+        },
+        {
+          "id": 13,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:36.602910+00:00",
+          "step": "local_oversight"
+        },
+        {
+          "id": 14,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:36.643790+00:00",
+          "step": "compare"
+        },
+        {
+          "id": 15,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:42.633105+00:00",
+          "step": "compare"
+        },
+        {
+          "id": 16,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:42.668027+00:00",
+          "step": "validate"
+        },
+        {
+          "id": 17,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:45.832488+00:00",
+          "step": "validate"
+        },
+        {
+          "id": 18,
+          "kind": "workflow_changed",
+          "created": "2026-11-25T03:33:45.855587+00:00",
+          "step": null
+        },
+        {
+          "id": 19,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:45.896696+00:00",
+          "step": "repair_search"
+        },
+        {
+          "id": 20,
+          "kind": "search_started",
+          "created": "2026-11-25T03:33:47.060978+00:00",
+          "step": "repair_search"
+        },
+        {
+          "id": 21,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:33:48.289290+00:00",
+          "step": "repair_search"
+        },
+        {
+          "id": 22,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:52.551492+00:00",
+          "step": "repair_search"
+        },
+        {
+          "id": 23,
+          "kind": "step_started",
+          "created": "2026-11-25T03:33:52.601166+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 24,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:33:56.002526+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 25,
+          "kind": "evidence_needed",
+          "created": "2026-11-25T03:33:56.036316+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 26,
+          "kind": "change_previewed",
+          "created": "2026-11-25T03:35:13.788163+00:00",
+          "step": null
+        },
+        {
+          "id": 27,
+          "kind": "workflow_changed",
+          "created": "2026-11-25T03:35:27.515648+00:00",
+          "step": null
+        },
+        {
+          "id": 28,
+          "kind": "change_applied",
+          "created": "2026-11-25T03:35:27.551102+00:00",
+          "step": null
+        },
+        {
+          "id": 29,
+          "kind": "started",
+          "created": "2026-11-25T03:36:01.304302+00:00",
+          "step": null
+        },
+        {
+          "id": 30,
+          "kind": "step_started",
+          "created": "2026-11-25T03:36:01.385986+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 31,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:36:04.787588+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 32,
+          "kind": "evidence_needed",
+          "created": "2026-11-25T03:36:04.821794+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 39,
+          "kind": "change_previewed",
+          "created": "2026-11-25T03:39:02.857009+00:00",
+          "step": null
+        },
+        {
+          "id": 40,
+          "kind": "workflow_changed",
+          "created": "2026-11-25T03:39:07.020773+00:00",
+          "step": null
+        },
+        {
+          "id": 41,
+          "kind": "change_applied",
+          "created": "2026-11-25T03:39:07.049445+00:00",
+          "step": null
+        },
+        {
+          "id": 42,
+          "kind": "started",
+          "created": "2026-11-25T03:39:20.633131+00:00",
+          "step": null
+        },
+        {
+          "id": 43,
+          "kind": "step_started",
+          "created": "2026-11-25T03:39:20.711955+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 44,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:39:24.994489+00:00",
+          "step": "repair_review"
+        },
+        {
+          "id": 45,
+          "kind": "step_started",
+          "created": "2026-11-25T03:39:25.037868+00:00",
+          "step": "report"
+        },
+        {
+          "id": 46,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:39:33.140721+00:00",
+          "step": "report"
+        },
+        {
+          "id": 47,
+          "kind": "completed",
+          "created": "2026-11-25T03:39:33.174330+00:00",
+          "step": null
+        },
+        {
+          "id": 82,
+          "kind": "change_previewed",
+          "created": "2026-11-25T03:47:21.568781+00:00",
+          "step": null
+        },
+        {
+          "id": 83,
+          "kind": "workflow_changed",
+          "created": "2026-11-25T03:47:24.971841+00:00",
+          "step": null
+        },
+        {
+          "id": 84,
+          "kind": "change_applied",
+          "created": "2026-11-25T03:47:25.002890+00:00",
+          "step": null
+        },
+        {
+          "id": 85,
+          "kind": "started",
+          "created": "2026-11-25T03:47:47.593498+00:00",
+          "step": null
+        },
+        {
+          "id": 86,
+          "kind": "step_started",
+          "created": "2026-11-25T03:47:47.690443+00:00",
+          "step": "step_mwvl110x"
+        },
+        {
+          "id": 87,
+          "kind": "pause_requested",
+          "created": "2026-11-25T03:47:47.769889+00:00",
+          "step": null
+        },
+        {
+          "id": 88,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:47:53.995629+00:00",
+          "step": "step_mwvl110x"
+        },
+        {
+          "id": 89,
+          "kind": "paused",
+          "created": "2026-11-25T03:47:54.048772+00:00",
+          "step": null
+        },
+        {
+          "id": 90,
+          "kind": "change_previewed",
+          "created": "2026-11-25T03:48:38.683979+00:00",
+          "step": null
+        },
+        {
+          "id": 91,
+          "kind": "workflow_changed",
+          "created": "2026-11-25T03:48:38.749030+00:00",
+          "step": null
+        },
+        {
+          "id": 92,
+          "kind": "change_applied",
+          "created": "2026-11-25T03:48:38.784957+00:00",
+          "step": null
+        },
+        {
+          "id": 93,
+          "kind": "started",
+          "created": "2026-11-25T03:48:38.895053+00:00",
+          "step": null
+        },
+        {
+          "id": 94,
+          "kind": "step_started",
+          "created": "2026-11-25T03:48:39.024168+00:00",
+          "step": "report"
+        },
+        {
+          "id": 95,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:48:43.104686+00:00",
+          "step": "report"
+        },
+        {
+          "id": 96,
+          "kind": "completed",
+          "created": "2026-11-25T03:48:43.139852+00:00",
+          "step": null
+        }
+      ]
+    },
+    {
+      "id": "d8df306eb6f3",
+      "case": "real rate-limit failure and recovery",
+      "status": "completed",
+      "version": 1,
+      "goal": "Explain how LangGraph interrupts pause and resume a workflow, including checkpoint and thread ID requirements. Use official documentation. Write a short report of at most 300 words. Describe remaining unknowns; no benchmark or performance claims are required.",
+      "states": {
+        "search_official": "completed",
+        "search_persistence": "completed",
+        "analyze_mechanism": "completed",
+        "review_accuracy": "completed",
+        "write_report": "completed"
+      },
+      "searches": 3,
+      "pages": 4,
+      "roles": [
+        "Planner",
+        "Researcher",
+        "Reviewer",
+        "Writer"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://docs.langchain.com/oss/javascript/langgraph/interrupts",
+          "title": "Interrupts"
+        },
+        {
+          "id": "S2",
+          "url": "https://docs.langchain.com/oss/javascript/langgraph/interrupts.md",
+          "title": ""
+        },
+        {
+          "id": "S3",
+          "url": "https://langchain-ai.github.io/langgraphjs/reference/modules/langgraph-checkpoint.html",
+          "title": "@langchain/langgraph-checkpoint"
+        },
+        {
+          "id": "S4",
+          "url": "https://langchain-ai.github.io/langgraphjs/reference/variables/langgraph.entrypoint.html",
+          "title": "Variable entrypointConst"
+        }
+      ],
+      "changes": [
+        {
+          "version": 1,
+          "origin": "Planner",
+          "diff": null
+        }
+      ],
+      "events": [
+        {
+          "id": 33,
+          "kind": "created",
+          "created": "2026-11-25T03:38:01.852600+00:00",
+          "step": null
+        },
+        {
+          "id": 34,
+          "kind": "plan_ready",
+          "created": "2026-11-25T03:38:04.208038+00:00",
+          "step": null
+        },
+        {
+          "id": 35,
+          "kind": "started",
+          "created": "2026-11-25T03:38:04.887391+00:00",
+          "step": null
+        },
+        {
+          "id": 36,
+          "kind": "step_started",
+          "created": "2026-11-25T03:38:04.892562+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 37,
+          "kind": "search_started",
+          "created": "2026-11-25T03:38:06.266250+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 38,
+          "kind": "step_failed",
+          "created": "2026-11-25T03:38:07.559378+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 48,
+          "kind": "started",
+          "created": "2026-11-25T03:45:07.010003+00:00",
+          "step": null
+        },
+        {
+          "id": 49,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:07.017640+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 50,
+          "kind": "search_started",
+          "created": "2026-11-25T03:45:07.774178+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 51,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:45:08.447580+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 58,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:22.749800+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 59,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:22.765933+00:00",
+          "step": "search_persistence"
+        },
+        {
+          "id": 63,
+          "kind": "search_started",
+          "created": "2026-11-25T03:45:24.185965+00:00",
+          "step": "search_persistence"
+        },
+        {
+          "id": 65,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:45:24.736648+00:00",
+          "step": "search_persistence"
+        },
+        {
+          "id": 70,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:33.072363+00:00",
+          "step": "search_persistence"
+        },
+        {
+          "id": 71,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:33.090266+00:00",
+          "step": "analyze_mechanism"
+        },
+        {
+          "id": 72,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:36.959318+00:00",
+          "step": "analyze_mechanism"
+        },
+        {
+          "id": 73,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:36.979387+00:00",
+          "step": "review_accuracy"
+        },
+        {
+          "id": 76,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:40.230848+00:00",
+          "step": "review_accuracy"
+        },
+        {
+          "id": 77,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:40.248913+00:00",
+          "step": "write_report"
+        },
+        {
+          "id": 80,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:43.448432+00:00",
+          "step": "write_report"
+        },
+        {
+          "id": 81,
+          "kind": "completed",
+          "created": "2026-11-25T03:45:43.459304+00:00",
+          "step": null
+        }
+      ]
+    },
+    {
+      "id": "e0d2e3afdc4c",
+      "case": "normal research",
+      "status": "completed",
+      "version": 1,
+      "goal": "Explain how LangGraph interrupts pause and resume a workflow, including checkpoint and thread ID requirements. Use official documentation. Write a short report of at most 300 words. Describe remaining unknowns; no benchmark or performance claims are required.",
+      "states": {
+        "search_official": "completed",
+        "search_resume_details": "completed",
+        "analyze_mechanism": "completed",
+        "review_accuracy": "completed",
+        "write_report": "completed"
+      },
+      "searches": 2,
+      "pages": 4,
+      "roles": [
+        "Planner",
+        "Researcher",
+        "Reviewer",
+        "Writer"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://langchain-ai.github.io/langgraphjs/reference/modules/langgraph-checkpoint.html",
+          "title": "@langchain/langgraph-checkpoint"
+        },
+        {
+          "id": "S2",
+          "url": "https://langchain-ai.github.io/langgraphjs/reference/interfaces/langgraph-sdk.RunsInvokePayload.html",
+          "title": "Interface RunsInvokePayload"
+        },
+        {
+          "id": "S3",
+          "url": "https://docs.langchain.com/oss/javascript/langgraph/interrupts",
+          "title": "Interrupts"
+        },
+        {
+          "id": "S4",
+          "url": "https://docs.langchain.com/oss/javascript/langgraph/interrupts.md",
+          "title": ""
+        }
+      ],
+      "changes": [
+        {
+          "version": 1,
+          "origin": "Planner",
+          "diff": null
+        }
+      ],
+      "events": [
+        {
+          "id": 52,
+          "kind": "created",
+          "created": "2026-11-25T03:45:10.152184+00:00",
+          "step": null
+        },
+        {
+          "id": 53,
+          "kind": "plan_ready",
+          "created": "2026-11-25T03:45:12.653945+00:00",
+          "step": null
+        },
+        {
+          "id": 54,
+          "kind": "started",
+          "created": "2026-11-25T03:45:13.184311+00:00",
+          "step": null
+        },
+        {
+          "id": 55,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:13.190634+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 56,
+          "kind": "search_started",
+          "created": "2026-11-25T03:45:14.034448+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 57,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:45:14.561142+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 60,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:22.898437+00:00",
+          "step": "search_official"
+        },
+        {
+          "id": 61,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:22.900133+00:00",
+          "step": "search_resume_details"
+        },
+        {
+          "id": 62,
+          "kind": "search_started",
+          "created": "2026-11-25T03:45:23.728496+00:00",
+          "step": "search_resume_details"
+        },
+        {
+          "id": 64,
+          "kind": "extract_started",
+          "created": "2026-11-25T03:45:24.346955+00:00",
+          "step": "search_resume_details"
+        },
+        {
+          "id": 66,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:29.733118+00:00",
+          "step": "search_resume_details"
+        },
+        {
+          "id": 67,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:29.749022+00:00",
+          "step": "analyze_mechanism"
+        },
+        {
+          "id": 68,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:32.530863+00:00",
+          "step": "analyze_mechanism"
+        },
+        {
+          "id": 69,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:32.550442+00:00",
+          "step": "review_accuracy"
+        },
+        {
+          "id": 74,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:38.989953+00:00",
+          "step": "review_accuracy"
+        },
+        {
+          "id": 75,
+          "kind": "step_started",
+          "created": "2026-11-25T03:45:39.009756+00:00",
+          "step": "write_report"
+        },
+        {
+          "id": 78,
+          "kind": "step_completed",
+          "created": "2026-11-25T03:45:41.532059+00:00",
+          "step": "write_report"
+        },
+        {
+          "id": 79,
+          "kind": "completed",
+          "created": "2026-11-25T03:45:41.550824+00:00",
+          "step": null
+        }
+      ]
+    }
+  ]
+}
